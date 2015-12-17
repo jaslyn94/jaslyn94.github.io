@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "jaslyn94",
-    "repositoryName": "jaslyn94.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"jaslyn94","repositoryName":"jaslyn94.github.io","branch":"master"},"site":{"title":"Jaslyn LSY","description":"An overview of Jaslyn LSY's projects in a visual and interactive form.","logo":"http://i.imgur.com/w2I2Bh9.png","cover":"http://i.imgur.com/w2I2Bh9.png","postsPerPage":"100","disqus":"JLSY","url":"https://jaslyn94.github.io"},"socialnetwork":{"email":"jaslyn94@gmail.com","twitter":"https://twitter.com/yinishere"},"theme":{"name":"Casper","url":"//jaslyn94.github.io/themes/Casper"}}
