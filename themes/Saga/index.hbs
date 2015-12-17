@@ -4,6 +4,34 @@
     <section class="blog-content animated fadeIn">
         <a id="site-url" class="blog-title" href="{{@blog.url}}">{{@blog.title}}</a>
         <span class="blog-description">{{@blog.description}}</span>
+        
+        <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+          <div class="container-fluid navbar-custom">
+            <div class="navbar-header navbar-custom"style="padding-left:10%;">
+              <a class="navbar-brand" id = "index" href="http://jaslynlsy.tumblr.com/"><img src=" http://static.tumblr.com/jdt9czl/0Mqnzek7f/logo.png" height = "150%"></a>
+            </div>
+            <div>
+              <ul class="nav navbar-nav pull-right">
+                <li id = "index" ><a href="http://jaslynlsy.tumblr.com/">index</a></li>
+                <li id = "about"><a href="http://jaslynlsy.tumblr.com/about">about</a></li>
+                <li class = "active" id = "portfolio"><a href="http://jaslynlsy.tumblr.com/portfolio">portfolio</a></li> 
+                <li id = "contact"><a href="http://jaslynlsy.tumblr.com/contact">contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    
+    
+        <div class="title">
+            <title1>Jaslyn Lee.</title1> 
+            <title2>Shean Yin </title2>
+            
+            {block:Description}
+                <p id="description">{Description}</p>
+            {/block:Description}
+        </div>
+        
         {{> links}}
     </section>
     </div>
